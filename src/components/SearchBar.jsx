@@ -16,6 +16,9 @@ export default function SearchBar() {
         mr: { sm: 5 },
       }}>
       <input className="search-bar" placeholder="Search..." value="" onChange={() => {}} />
+      <IconButton type="submit" sx={{ p: '10px', color: 'red' }}>
+        <Search></Search>
+      </IconButton>
     </Paper>
   );
 }
